@@ -1,0 +1,79 @@
+:root {
+    --brand-font: 'Crimson Text', serif;
+    --main-font: 'Inter', sans-serif;
+    --accent-green: #b5c491;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: #fcfcfc;
+}
+
+.brand-font {
+    font-family: var(--brand-font);
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Hero Section */
+.hero-container {
+    height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./Pics/main-1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.hero-overlay {
+    flex-grow: 1;
+}
+
+.btn-booking {
+    background-color: #b5c491;
+    border: none;
+    color: #1a1a1a;
+    transition: transform 0.2s;
+    font-size: 1.2rem;
+}
+
+.btn-booking:hover {
+    transform: scale(1.05);
+    background-color: #a4b380;
+}
+
+/* About Section */
+.about-img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Destination Cards */
+.dest-card {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.dest-label {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+}
+
+/* Blog Cards */
+.blog-card img {
+    height: 180px;
+    object-fit: cover;
+}

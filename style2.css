@@ -1,0 +1,25 @@
+
+.hero-container-detail {
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.bg-brown-dark {
+    background-color: #c5a98a;
+}
+
+.bg-brown-light {
+    background-color: #e5c3a6;
+}
+
+
+.italic {
+    font-style: italic;
+}
